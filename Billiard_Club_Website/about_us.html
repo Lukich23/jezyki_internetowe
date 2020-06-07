@@ -7,6 +7,9 @@
     <link rel="icon" href="./assets/img/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./style/reset.css">
     <link rel="stylesheet" type="text/css" href="./style/main.css">
+    <link rel="stylesheet" type="text/css" href="./style/comments.css">
+    <!-- Add the FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/37f7e8d96d.js" crossorigin="anonymous"></script> 
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
@@ -28,17 +31,14 @@
                 <div class="header-container-row">
                     <ul class="header-list">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Price list</a></li>
-                        <li><a href="#">Tournaments</a></li>
+                        <li><a href="price_list.html">Price list</a></li>
+                        <li><a href="tournaments.html">Tournaments</a></li>
                         <li><a href="about_us.html">About us</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </header>
-        <div class="content">
-        </div>
-    </div>
     <!-- Article - History of Billiard -->
     <article>
         <div class="article-wrapper">
@@ -84,7 +84,56 @@
                 possible to see a snooker competition every day in Britain.</p>
         </div>
     </article>
-    <!--  -->
+        <!-- Section - Comments -->
+
+        <section class="comments">
+            <div class="comments-form-wrapper">
+                <form class="comments-form" name="comment" action="index.php" method="post">
+                    <h3 class="comments-form-title">Please, leave your opinion</h3>
+                    <p class="comments-form-subtitle">We value every thought and try to do one's best</p>
+                    <div class="comments-form-item">                   
+                        <input type="text" name="nickname" placeholder="Your nickname" maxlength="30"/>       
+                    </div>
+                    <div class="comments-form-item">                  
+                        <textarea name="comment" placeholder="Write your comment here..." maxlength="500" ></textarea>    
+                    </div>
+                    <div class="comments-form-item">
+                        <ul class="comments-form-list-emoji">
+                            <li><i class="fas fa-frown"></i><input type="radio" id="like1" name="like" value="Bad"></li>
+                            <li><i class="fas fa-meh"></i><input type="radio" id="like2" name="like" value="Neutral"></li>
+                            <li><i class="fas fa-smile"></i><input type="radio" id="like3" name="like" value="Not Bad"></li>
+                            <li><i class="fas fa-grin-beam"></i><input type="radio" id="like4" name="like" value="Grate"></li>
+                            <li><i class="fas fa-grin-hearts"></i><input type="radio" id="like5" name="like" value="Awesome"></li>
+                        </ul>
+                    </div>        
+                    <input type="submit" name="send" value="Submit"/>
+                </form>
+            </div> 
+        </section>
+    
+    <!-- __________________________________ -->
+    
+        <section class="list-of-coments">
+            <div class="list-of-coments-wrapper">
+                <div class="list-of-coments-wrapper-item">
+                    <div class="list-of-coments-wrapper-item-row">
+                        <div class="additional-wrapper">
+                        <div class="list-of-coments-wrapper-item-row-top-left">
+                            <h6>Nickname: <span class="nickname"></span></h6>
+                        </div>
+                        <div class="list-of-coments-wrapper-item-row-top-right">
+                            <h6><i class="fas fa-frown"></i></h6>
+                        </div>
+                    </div>
+                        <hr>
+                        <p>Comment: <span class="comment"></span></p>
+                    </div>             
+                </div>
+            </div> 
+        </section>
+    
+    <!-- ___________________________________ -->
+
     <!-- FENIX ANIMATION -->
     <div class="fenix-animation">
         <div class="fenix-animation-wrapper">
