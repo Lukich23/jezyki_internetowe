@@ -1,0 +1,77 @@
+.offers-content {
+    margin-bottom: 100px;
+}
+
+.hookah-menu {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Sriracha', cursive;
+    padding: 30px 0;
+    background-color: #333333;
+    color: #dadada;
+
+}
+
+.hookah-menu-item h2{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.hookah-menu-list li h3{
+    color: rgba(108, 181, 4, 1);
+    font-size: 1.8rem;
+}
+
+.hookah-menu-list-title-dots {
+    color: #dadada;
+    font-size: 1rem;
+}
+
+.hookah-menu-list-item {
+    padding-bottom: 20px;
+    width: 460px;
+}
+
+.hookah-menu-list-item h3{
+    padding-bottom: 10px;
+}
+
+
+/* TITLE ANIMATION  */
+.title-animation {
+    width: 18%;
+    margin: 30px auto;
+}
+
+path {
+    stroke: #333333;
+    fill: #333333;
+    stroke-dasharray: 500;
+    opacity: 10;
+    animation: animate 5s cubic-bezier(.74,.25,.48,.93);
+
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 500;
+    }
+
+    30% {
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 500;
+    }
+
+    90% {
+        fill: rgba(255, 255, 255, 1);
+        
+    }
+
+    100% {
+        opacity: 10;
+        stroke-dashoffset: 0;
+    }
+}

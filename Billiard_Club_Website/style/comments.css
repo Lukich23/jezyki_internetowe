@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+.comments {
+    background-color: #333333;
+    color: #333333;
+}
+
+.comments-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadada; 
+    background-color: #ffffff; 
+
+}
+
+.comments-form-wrapper {
+    margin: 0 36%;
+    padding: 30px;  
+}
+
+.comments-form-wrapper .comments-form .comments-form-item {
+    width: 100%;
+}
+
+.comments .comments-form-wrapper .comments-form .comments-form-item > input{
+    width: 80%;
+    margin: 0 10%;
+    height: 25px;
+}
+
+.comments .comments-form-wrapper .comments-form .comments-form-item textarea{
+    width: 80%;
+    margin: 0 10%;
+    height: 100px;
+}
+
+.comments-form-item {   
+    padding: 10px;  
+}
+
+.comments-form-title {
+    font-size: 1.55rem;
+    margin-top: 16px;
+}
+
+.comments .comments-form-wrapper .comments-form > input {
+    background-color: rgba(108, 181, 4, 1);
+    width: 80%;
+    border:  0;
+    color: #ffffff;
+    height: 35px;
+    margin-bottom: 16px;
+}
+
+.comments-form-subtitle {
+    padding: 10px 0;
+}
+
+.comments-form-item .comments-form-list-emoji {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comments-form-item .comments-form-list-emoji > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments-form-item .comments-form-list-emoji li input[type=radio] {
+    margin: 4px 0;
+}
+
+.comments-form-list-emoji li {
+    font-size: 25px;
+}
+
+.comments-form-item .comments-form-list-emoji li:hover:nth-child(1) {
+    color: rgb(216, 18, 18);
+}
+
+.comments-form-item .comments-form-list-emoji li:hover:nth-child(2) {
+    color: #2196F3
+}
+
+.comments-form-item .comments-form-list-emoji li:hover:nth-child(3) {
+    color: rgba(108, 181, 4, 1);
+}
+
+.comments-form-item .comments-form-list-emoji li:hover:nth-child(4) {
+    color: rgb(181, 4, 157);
+}
+
+.comments-form-item .comments-form-list-emoji li:hover:nth-child(5) {
+    color: #FECD32;
+}
+
+.list-of-coments-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0;
+}
+
+.list-of-coments-wrapper-item {
+    width: 500px;
+}
+
+
+.nickname{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.comment {
+    font-size: 0.85rem;
+}
+
+.list-of-coments-wrapper-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000 ;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.additional-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr { 
+    height: 1.5px;
+    color: #000000;
+    background-color: #000000;
+    border: none;
+}
+
+

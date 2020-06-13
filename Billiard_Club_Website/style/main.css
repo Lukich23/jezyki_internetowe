@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('slick-slider.css');
 @import url('slick-slider-galery.css');
 
@@ -164,52 +165,3 @@ footer {
     font-size: 0.75rem;
 }
 /* FOOTER END */
-
-/* Fenix - Animation */
-.fenix-animation {
-    display: flex;
-    justify-content: center;
-}
-
-.fenix-animation-wrapper{
-    padding: 30px 0;
-    background-color: #ffffff;
-    width: 30%;
-    /* position: absolute;
-    top: 45%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    /* width: 30%; */
-}
-
-/* path {
-    stroke: #333333;
-    fill: #333333;
-    stroke-dasharray: 1800;
-    opacity: 10;
-    animation: animate 5s cubic-bezier(0,0.23,0.5,.1);
-}
-
-@keyframes animate {
-    0% {
-        opacity: 0;
-        fill: none;
-        stroke-dashoffset: 1800;
-    }
-
-    30% {
-        opacity: 20;
-        fill: none;
-        stroke-dashoffset: 1800;
-    }
-
-    90% {
-        fill: rgba(255,255,255,0);
-    }
-
-    100% {
-        opacity: 10;
-        fill: rgba(255, 255, 255, 1);
-        stroke-dashoffset: 0;
-    }
-} */
