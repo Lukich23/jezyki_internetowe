@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS billiard_club;
+
+CREATE TABLE comments (
+ id INT NOT NULL AUTO_INCREMENT,
+ nickname VARCHAR(30) NOT NULL,
+ comment VARCHAR(510) NOT NULL,
+ date VARCHAR (30) NOT NULL,
+ like_txt VARCHAR (20) NOT NULL,
+ PRIMARY KEY (id));
+ )
+
+INSERT INTO comments 
+VALUES (NULL,"Captain Jack Sparrow","Best place to spent your time with friends. Amazing atmosphere, not high prices for the service. Funny and polite staff. Recomend it for evryone","10 Apr 2018", "Awesome");
+INSERT INTO comments 
+VALUES (NULL,"Iron Man","Best place to spent your time with Avengers. Quality of tables are awesome. We enjoy every moment there","23 Sep 2019", "Great");
+INSERT INTO comments 
+VALUES (NULL,"Thor","I love it. Best places in the whole Galaxy","17 Dec 2020", "Awesome");
